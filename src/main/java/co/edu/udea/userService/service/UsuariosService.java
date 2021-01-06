@@ -7,7 +7,7 @@ import co.edu.udea.userService.domain.Usuarios;
 
 public interface UsuariosService {
 	public List<Usuarios> list();
-	public void save(Usuarios user);
+	public Usuarios save(Usuarios user);
 	public void update(Usuarios user);
 	public void deleteById(Long id);
 }

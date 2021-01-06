@@ -21,8 +21,8 @@ public class UsuariosServiceImpl implements UsuariosService {
 	}
 
 	@Override
-	public void save(Usuarios user) {
-		repo.save(user);
+	public Usuarios save(Usuarios user) {
+		return repo.save(user);
 	}
 
 	@Override
